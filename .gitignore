@@ -7,6 +7,7 @@
 
 # testing
 /coverage
+/pg_data/**
 
 # next.js
 /.next/
