@@ -4,8 +4,8 @@ services:
     image: postgres
     restart: always
     environment:
-      POSTGRES_USER: pguser
-      POSTGRES_PASSWORD: pgpassword
+      POSTGRES_USER: ${PGUSER}
+      POSTGRES_PASSWORD: ${PGPASSWORD}
     volumes:
       - ./pg_data:/var/lib/postgresql/data
     ports:
